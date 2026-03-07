@@ -1,7 +1,3 @@
-# IP logs folder (data only, not scripts)
-ip_logs/
-*.db
-
 # Python
 __pycache__/
 *.py[cod]
