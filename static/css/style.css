@@ -210,20 +210,20 @@ card
 }
 
 /*
-avatar
+avator
 */
-.avatar{
+.avator{
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
     align-items: center;
     padding: 10px;
 }
-.avatar-name{
+.avator-name{
     font-weight: bold;
     padding-left: 15px;
 }
-.avatar-image{
+.avator-image{
     margin: 0;
     border-radius: 50%;
     overflow: hidden;
@@ -325,8 +325,9 @@ footer
 .fotter{
     background-color: #333;
     color: #fff;
+    padding: 40px 20px;
 }
-.footer-map{
+.footer-map {
     margin: 0;
     padding: 40px 50px;
     display: flex;
@@ -334,20 +335,24 @@ footer
     justify-content: center;
 
 }
-.footer-map > iframe{
-    width: 60px;
+.footer-map > iframe {
+    width: 60%;
 }
-.footer-mapinfo{
-    width: 40px;
+.footer-mapinfo {
+    width: 40%;
     padding: 15px;
 }
-/* .footer-maplogo{} */
-.footer-mapaddress{
-    font-size: 10px;
+.footer-maplogo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-mapaddress {
+    font-size: 15px;
     font-weight: bold;
 }
 /* .footer-maplogo > svg {
     fill: transparent;
+    margin-right: 10px;
 } */
 .footer-mapaddress {
     font-style: normal;
