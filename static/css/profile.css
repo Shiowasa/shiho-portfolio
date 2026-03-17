@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+/* ページ全体 */
+body{
+    font-family: "Yu Gothic","Hiragino Sans",sans-serif;
+    background:#e9eef2;
+    color:#2f3e46;
+    line-height:1.7;
+}
+
+/* コンテナ */
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+/* カード */
+.card{
+    background:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* 日付 */
+.post-date{
+    color:#6c7a89;
+    font-size:0.9rem;
+    margin-bottom:20px;
+    text-align: right;
+}
+
+/* プロフィールレイアウト */
+.profile-page{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin:25px 0;
+}
+
+/* 左（写真） */
+.profile-left{
+    width:35%;
+    text-align:center;
+}
+
+/* 右（プロフィール表） */
+.profile-right{
+    width:65%;
+}
+
+/* プロフィール写真 */
+.profilephoto{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+/* プロフィール表 */
+.profile{
+    border-collapse:collapse;
+}
+
+.profile th{
+    text-align:left;
+    padding-right:20px;
+}
+
+.profile td{
+    padding:5px 0;
+}
+
+/* mindset */
+.mindset{
+    margin-top:25px;
+}
+
+.mindset h3{
+    margin-bottom:10px;
+}
+
+.mindset ul{
+    padding-left:20px;
+}
+
+/* 戻るリンク */
+a{
+    color:#3a6ea5;
+    text-decoration:none;
+}

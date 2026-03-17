@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+/* ページ全体 */
+body{
+    font-family: "Yu Gothic","Hiragino Sans",sans-serif;
+    background:#e9eef2;
+    color:#2f3e46;
+    line-height:1.7;
+}
+
+/* コンテナ */
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+/* カード */
+.card{
+    background:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* 日付 */
+.post-date{
+    color:#6c7a89;
+    font-size:0.9rem;
+    margin-bottom:20px;
+    text-align: right;
+}
+
+/* スキル見出し */
+.skill-box h2{
+  text-align:center;
+}
+
+/* 業務で使用してきたツール */
+.skills{
+  display:flex;
+  gap:30px;
+  margin-top:20px;
+}
+
+.skill-box{
+  flex:1;
+  background:#f7f9fb;
+  padding:20px;
+  border-radius:10px;
+}
+
+.skill-box h2{
+  font-size:1.2rem;
+  margin-bottom:10px;
+}
+
+.skill-list{
+  list-style:none;
+  margin-top: 10px;
+  margin:5px;
+}
+
+.skill-list li{
+  margin-bottom:6px;
+  margin-left: 5px;
+}
+
+.skill-list li::before{
+  content:"● ";
+  color:#3a6ea5;
+}

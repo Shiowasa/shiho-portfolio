@@ -1,9 +1,9 @@
-# Shiowasa Portfolio
+# Shiowasa Portfolio　app
 
-未経験からWebエンジニアを目指して、youtubeを参考にチャットGPTに相談しながら制作したポートフォリオサイトです。
+youtubeを参考に自己紹介用として制作したポートフォリオサイトです。
 
 ## 公開サイト
-https://shiowasa-portfolio.netlify.app
+<!-- ここにURL入れる -->
 
 ## 使用技術
 - HTML
@@ -16,12 +16,12 @@ https://shiowasa-portfolio.netlify.app
 
 ## サイト概要
 ポートフォリオの練習としてyoutubeを参考にチャットGPTに相談しながら制作したWebサイトです。  
-プロフィールや制作物を紹介することを目的に作成しました。
+紹介されているwebページを一度作成し、プロフィールや職務経歴などに置き換えて応用しています。
 
 ## ファイル構成
 
 ```
-HTML.PORTFOLIO_SHIHO
+HTML.PORTFOLIO_SHIHO.spp
 ├ static
 │   ├ css
 │   │   ├ sanitize.css
