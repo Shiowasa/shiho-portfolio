@@ -70,14 +70,16 @@ hero
     display: block;
     font-weight: bold;
     width: 100%;
+    filter: brightness(0.7);
     text-align: center;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 .hero > video {
     position: absolute;
     z-index: 1;
     width: auto;
     height: 105%;
-
+    
 }
 
 
