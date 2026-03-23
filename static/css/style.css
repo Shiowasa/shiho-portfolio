@@ -302,6 +302,53 @@ button
     border: 1px solid #ccc;
     min-width: 500px;    
 }
+
+/*
+Thanks Page
+*/
+.thanks-page {
+    margin: 0;
+    font-family: 'Yu Gothic', sans-serif;
+    background: linear-gradient(135deg, #e9eef2, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #2f3e46;
+}
+
+.thanks-box {
+    text-align: center;
+    background: #ffffff;
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.thanks-box h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.thanks-box p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.thanks-box a {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #2f3e46;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+transition: 0.3s;
+}
+
+.thanks-box a:hover {
+    opacity: 0.8;
+}
+
 /* .radio{
     margin: 0 10;
 } */
