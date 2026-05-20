@@ -114,7 +114,25 @@ about
 .about-description{
     margin: 0;
     font-size: 18px;
+    color: #666;
 }
+.link-btn{
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    color: #4d4c4c;
+    text-decoration: none;
+    padding: 4px 8px;          /* 背景が見えるように余白 */
+    transition: 0.3s;          /* アニメーション */
+    position: relative;
+    z-index: 3;
+    border-radius: 25%;
+}
+.link-btn:hover{
+    background-color: #4d4c4c;    /* ホバーした時、背景グレー白文字 */
+    color: #fff;                
+}
+
 @media screen and (max-width: 768px){
 .about {
     display: block;
